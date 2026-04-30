@@ -6,42 +6,45 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="page-cloud.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
     <body>
-        <div class="page">
             
-                <div class="haut">
+                <header>
                     <div class="logo">
                         <img src="style/logo.png" alt="Mindgeek logo">
                     </div>
 
                     <div class="onglet1">
-                        <i class="fa-solid fa-users" style="color: rgb(251, 139, 155);"></i>
+                        <i class="fa-solid fa-users fa-2xl" style="color: rgb(251, 139, 155);"></i>
                         <h2>Serveur Mutualisé</h2>
                     </div>
 
                     <div class="onglet2">
-                        <i class="fa-solid fa-user" style="color: rgb(251, 139, 155);"></i>
+                        <i class="fa-solid fa-user fa-2xl" style="color: rgb(251, 139, 155);"></i>
                         <h2>Serveur Dédié</h2>
                     </div>
 
                     <div class="onglet3">
                         <nav>
-                        <i class="fa-solid fa-cloud"></i>
+                        <i class="fa-solid fa-cloud fa-xl" style="color: #233E4A;"></i>
                         </nav>
                         <h2>Solution "Cloud"</h2>
                     </div>
 
                     <div class="onglet4">
-                        <i class="fa-solid fa-envelope" style="color: rgb(251, 139, 155);"></i>
+                        <i class="fa-solid fa-envelope fa-2xl" style="color: rgb(251, 139, 155);"></i>
                         <h2>Contact</h2>
                     </div>
-                </div>
+                </header>
             
 
             
-            <div class="millieu">
+            <main>
                 <div class="search">
+                    <span style="width: 180px;"></span>
                     <h1>QUE RECHERCHEZ-VOUS ?</h1></h1w>
                 </div>
                 <div class="tt">
@@ -61,17 +64,19 @@
                 </div>
 
                 <div class="cadre">
-                    <div class="cadre1">
-                            <div class="cadre-starter">
+                    <div class="carte">
+                            <div class="header-cadre">
                                 <h3>Cloud STARTER</h3>
                             </div>
 
                             <div class="config-starter">
+                                <ul>
                                 <li>Intel E5-1650v2</li>
                                 <li>E5-1650v2 - 6c/12t</li>
                                 <li>3,5 / 3,9 GHz - 128 Go RAM</li>
                                 <li>DDR3 ECC 1600 MHz</li>
                                 <li>2x480Go SSD RAID SOFT</li>
+                                </ul>
                             </div>
 
                             <div class="prix-starter">
@@ -83,18 +88,20 @@
                             </div>
                     </div>
 
-                    <div class="cadre2">
-                            <div class="cadre-evasion">
+                    <div class="carte">
+                            <div class="header-cadre">
                                 <h3>Cloud EVASION</h3>
                             </div>
 
                             <div class="config-evasion">
+                                <ul>
                                 <li>Intel Xeon E5</li>
                                 <li>E5-2620v3 - 6c/12t</li>
                                 <li>2,4 / 3,2 GHz - 64 Go RAM</li>
                                 <li>DDR4 ECC 1866 MHz</li>
                                 <li>12x4 To SAS RAID SOFT</li>
                                 <li>vRack 10 Gbps</li>
+                                </ul>
                             </div>
 
                             <div class="prix-evasion">
@@ -106,18 +113,20 @@
                             </div>
                     </div>
 
-                    <div class="cadre3">
-                        <div class="cadre-liberty">
+                    <div class="carte">
+                        <div class="header-cadre">
                             <h3>Cloud LIBERTY</h3>
                         </div>
 
                          <div class="config-liberty">
+                            <ul>
                             <li>Intel Xeon E5</li>
                             <li>2x E5-2690v3 - 24c/48t</li>
                             <li>2,6 / 3,4 GHz - 128 Go RAM</li>
                             <li>DDR4 ECC 2133 MHz</li>
                             <li>2x4To SAS RAID SOFT</li>
                             <li>vRack 10 Gbp</li>
+                            </ul>
                         </div>
 
                         <div class="prix-liberty">
@@ -129,34 +138,34 @@
                         </div>
                     </div> 
                 </div>  
-            </div>
+            </main>
 
-            <div class="bas">
-                <div class="accueil">
-                    <h4>Accueil</h4>
-                </div>
+            <footer>
 
-                <div class="serv-mut">
-                    <h4>Serveur Mutualisé</h4>
-                </div>
 
-                <div class="serv-ded">
-                    <h4>Serveur Dédié</h4>
-                </div>
+                    <h4 class="titre-footer">Accueil</h4>
 
-                <div class="sol-cloud">
-                    <h4>Solution "Cloud"</h4>
-                </div>
 
-                <div class="contact">
-                    <h4>Contact</h4>
-                </div>
 
-                <div class="se-connecter">
-                    <h4>Se connecter</h4>
-                </div>
-            </div>
-            
-        </div>
+                    <h4 class="titre-footer">Serveur Mutualisé</h4>
+
+
+
+                    <h4 class="titre-footer">Serveur Dédié</h4>
+
+
+
+                    <h4 class="titre-footer">Solution "Cloud"</h4>
+
+
+
+                    <h4 class="titre-footer">Contact</h4>
+
+
+
+                    <h4 class="titre-footer">Se connecter</h4>
+
+            </footer>   
+
     </body>
 </html>
