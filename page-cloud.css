@@ -1,53 +1,65 @@
 * {
+    margin: 0;
+    padding: 0;
 
 }
 
 .page {
-    border: 1px solid blue;
     height: 100vh;
     width: 100vw;
 }
 
 .haut {
-    border: 2px solid red;
     height: 15%;
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
-    border: 3px solid purple;
     width: 20%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .onglet1 {
-    border: 3px solid green;
     width: 20%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .onglet2 {
-    border: 3px solid rgb(21, 255, 0);
     width: 20%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .onglet3 {
-    border: 3px solid rgb(255, 0, 128);
     width: 20%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .onglet4 {
-    border: 3px solid rgb(0, 191, 255);
     width: 20%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
 .millieu {
-    border: 1px solid red;
     width: 100%;
     height: 60%;
     display: flex;
@@ -58,9 +70,14 @@
 }
 
 .search {
-    border: 2px solid yellow;
+    background-color: #fb8b9b;
     width: 100%;
-    height: 7%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 300px;
 }
 
 .tt {
@@ -74,19 +91,26 @@
 
 
 .titre {
-    border: 2px solid purple;
     width: 100%;
     height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: thin;
+    border-style: dashed;
+    border-bottom-style: none;
 }
 
 .texte {
-    border: 2px solid orange;
     width: 97%;
     height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .cadre {
-    border: 2px solid blue;
     width: 100%;
     height: 100%;
     display: flex;
@@ -99,31 +123,37 @@
 }
 
 .cadre1 {
-    border: 2px solid green;
+    border: 2px solid #213E4E;
     width: 25%;
     height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-width: thin;
+    border-style: dashed;
 }
 
 .cadre-starter {
-    border: 2px solid red;
+    background-color: #213E4E;
     width: 95%;
     height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .config-starter {
-    border: 2px solid green;
     width: 95%;
     height: 40%;
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
+    padding-left: 100px;
 }
 
 .prix-starter {
-    border: 2px solid green;
     width: 95%;
     height: 10%;
     display: flex;
@@ -131,40 +161,46 @@
 }
 
 .commander-starter {
-    border: 2px solid green;
+    background-color: #fb8b9b;
     width: 95%;
     height: 15%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .cadre2 {
-    border: 2px solid green;
+    border: 2px solid #213E4E;
     width: 25%;
     height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-width: thin;
+    border-style: dashed;
 }
 
-
 .cadre-evasion {
-    border: 2px solid red;
+    background-color: #213E4E;
     width: 95%;
     height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .config-evasion {
-    border: 2px solid green;
     width: 95%;
     height: 40%;
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
+    padding-left: 100px;
 }
 
 .prix-evasion {
-    border: 2px solid green;
     width: 95%;
     height: 10%;
     display: flex;
@@ -172,40 +208,46 @@
 }
 
 .commander-evasion {
-    border: 2px solid green;
+    background-color: #fb8b9b;
     width: 95%;
     height: 15%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .cadre3 {
-    border: 2px solid green;
+    border: 2px solid #213E4E;
     width: 25%;
     height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-width: thin;
+    border-style: dashed;
 }
 
-
 .cadre-liberty {
-    border: 2px solid red;
+    background-color: #213E4E;
     width: 95%;
     height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .config-liberty {
-    border: 2px solid green;
     width: 95%;
     height: 40%;
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
+    padding-left: 100px;
 }
 
 .prix-liberty {
-    border: 2px solid green;
     width: 95%;
     height: 10%;
     display: flex;
@@ -213,15 +255,16 @@
 }
 
 .commander-liberty {
-    border: 2px solid green;
+    background-color: #fb8b9b;
     width: 95%;
     height: 15%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .bas {
-    border: 1px solid cyan;
+    background-color: #213E4E;
     height: 25%;
     width: 100%;
     display: flex;
@@ -229,39 +272,49 @@
 }
 
 .accueil {
-    border: 5px solid orange;
     width: 16%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: px;
 }
 
 .serv-mut {
-    border: 5px solid orange;
     width: 16%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: px;
 }
 
 .serv-ded {
-    border: 5px solid orange;
     width: 16%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: px;
 }
 
 .sol-cloud {
-    border: 5px solid orange;
     width: 16%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: px;
 }
 
 .contact {
-    border: 5px solid orange;
     width: 16%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: px;
 }
 
 .se-connecter {
-    border: 5px solid orange;
-    width: 16%;
+    width: 17%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: px;
 }
-
-
