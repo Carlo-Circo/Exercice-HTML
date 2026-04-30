@@ -1,0 +1,267 @@
+* {
+
+}
+
+.page {
+    border: 1px solid blue;
+    height: 100vh;
+    width: 100vw;
+}
+
+.haut {
+    border: 2px solid red;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    border: 3px solid purple;
+    width: 20%;
+    height: 100%;
+}
+
+.onglet1 {
+    border: 3px solid green;
+    width: 20%;
+    height: 100%;
+}
+
+.onglet2 {
+    border: 3px solid rgb(21, 255, 0);
+    width: 20%;
+    height: 100%;
+}
+
+.onglet3 {
+    border: 3px solid rgb(255, 0, 128);
+    width: 20%;
+    height: 100%;
+}
+
+.onglet4 {
+    border: 3px solid rgb(0, 191, 255);
+    width: 20%;
+    height: 100%;
+}
+
+.millieu {
+    border: 1px solid red;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 70px;
+}
+
+.search {
+    border: 2px solid yellow;
+    width: 100%;
+    height: 7%;
+}
+
+.tt {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titre {
+    border: 2px solid purple;
+    width: 100%;
+    height: 50%;
+}
+
+.texte {
+    border: 2px solid orange;
+    width: 97%;
+    height: 50%;
+}
+
+.cadre {
+    border: 2px solid blue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px  
+}
+
+.cadre1 {
+    border: 2px solid green;
+    width: 25%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadre-starter {
+    border: 2px solid red;
+    width: 95%;
+    height: 20%;
+}
+
+.config-starter {
+    border: 2px solid green;
+    width: 95%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.prix-starter {
+    border: 2px solid green;
+    width: 95%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.commander-starter {
+    border: 2px solid green;
+    width: 95%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.cadre2 {
+    border: 2px solid green;
+    width: 25%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cadre-evasion {
+    border: 2px solid red;
+    width: 95%;
+    height: 20%;
+}
+
+.config-evasion {
+    border: 2px solid green;
+    width: 95%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.prix-evasion {
+    border: 2px solid green;
+    width: 95%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.commander-evasion {
+    border: 2px solid green;
+    width: 95%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.cadre3 {
+    border: 2px solid green;
+    width: 25%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cadre-liberty {
+    border: 2px solid red;
+    width: 95%;
+    height: 20%;
+}
+
+.config-liberty {
+    border: 2px solid green;
+    width: 95%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.prix-liberty {
+    border: 2px solid green;
+    width: 95%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.commander-liberty {
+    border: 2px solid green;
+    width: 95%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.bas {
+    border: 1px solid cyan;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.accueil {
+    border: 5px solid orange;
+    width: 16%;
+    height: 100%;
+}
+
+.serv-mut {
+    border: 5px solid orange;
+    width: 16%;
+    height: 100%;
+}
+
+.serv-ded {
+    border: 5px solid orange;
+    width: 16%;
+    height: 100%;
+}
+
+.sol-cloud {
+    border: 5px solid orange;
+    width: 16%;
+    height: 100%;
+}
+
+.contact {
+    border: 5px solid orange;
+    width: 16%;
+    height: 100%;
+}
+
+.se-connecter {
+    border: 5px solid orange;
+    width: 16%;
+    height: 100%;
+}
+
+
